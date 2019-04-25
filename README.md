@@ -3,8 +3,8 @@
 Considering you are already in 'type-racer' folder.
 ```
 $cd frontend
-npm install
-npm run build
+$npm install
+$npm run build
 ```
 When finished:
 ```
