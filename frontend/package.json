@@ -1,0 +1,46 @@
+{
+  "name": "type-racer-frontend",
+  "version": "0.0.1",
+  "description": "Frontend application that composes Type Racer game",
+  "main": "index.js",
+  "dependencies": {
+    "antd": "^3.16.5",
+    "react": "^16.8.6",
+    "react-addons-transition-group": "^15.6.2",
+    "react-dom": "^16.8.6",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.0",
+    "socket.io-client": "2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonndarocha/type-racer.git"
+  },
+  "keywords": [
+    "type-racer",
+    "react.js",
+    "frontend"
+  ],
+  "author": "Robson da Rocha <robsonndarocha@gmail.com> (https://github.com/robsonndarocha)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robsonndarocha/type-racer/issues"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "/"
+}

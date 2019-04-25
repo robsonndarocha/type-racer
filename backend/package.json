@@ -1,0 +1,40 @@
+{
+  "name": "type-racer-backend",
+  "version": "0.0.1",
+  "description": "Backend application that composes Type Racer game",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "1.9.1",
+    "ramda": "^0.26.1",
+    "socket.io": "2.2.0",
+    "uuid": "3.3.2"
+  },
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonndarocha/type-racer.git"
+  },
+  "keywords": [
+    "type-racer",
+    "node.js",
+    "backend"
+  ],
+  "author": "Robson da Rocha <robsonndarocha@gmail.com> (https://github.com/robsonndarocha)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robsonndarocha/type-racer/issues"
+  },
+  "homepage": "https://github.com/robsonndarocha/type-racer#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}

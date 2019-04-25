@@ -1,0 +1,14 @@
+.player-card {
+  margin-bottom: 10px;
+}
+
+.player-info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.player-info h3 {
+  font-weight: 300;
+}
